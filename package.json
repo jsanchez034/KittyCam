@@ -1,0 +1,23 @@
+{
+  "name": "KittyCam",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "Jon-Pierre Sanchez",
+  "license": "MIT",
+  "dependencies": {
+    "http-auth": "^2.1.9",
+    "node-static": "^0.7.4",
+    "ws": "^0.4.32"
+  },
+  "devDependencies": {
+    "broccoli": "^0.12.3",
+    "broccoli-concat": "0.0.9",
+    "broccoli-jshint": "^0.5.1",
+    "broccoli-merge-trees": "^0.1.4",
+    "broccoli-static-compiler": "^0.1.4",
+    "broccoli-uglify-js": "^0.1.3"
+  }
+}
